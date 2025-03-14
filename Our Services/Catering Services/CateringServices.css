@@ -1,0 +1,37 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}

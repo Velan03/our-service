@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Services - Event Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CateringServices.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Event Management</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4">Traditional Tamil Catering Services</h1>
+            <p class="lead">Experience the authentic taste of Tamil Nadu with our traditional catering services.</p>
+            <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Catering Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./Catering Services/cateering-services.webp" class="card-img-top" alt="Wedding Catering">
+                        <div class="card-body">
+                            <h5 class="card-title">Wedding Catering</h5>
+                            <p class="card-text">Traditional Tamil wedding meals served with love and care.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./Catering Services/Corporate Event.jpg" class="card-img-top" alt="Corporate Events">
+                        <div class="card-body">
+                            <h5 class="card-title">Corporate Events</h5>
+                            <p class="card-text">Customized menus for corporate gatherings and events.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./Catering Services/Product Launch.jpg" class="card-img-top" alt="Festival Catering">
+                        <div class="card-body">
+                            <h5 class="card-title">Festival Catering</h5>
+                            <p class="card-text">Celebrate Tamil festivals with our special festive menus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About Our Catering</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./Catering Services/cateering-services.webp" class="img-fluid" alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <p>Our catering services are deeply rooted in the rich culinary traditions of Tamil Nadu. We offer a wide range of traditional dishes that are prepared using authentic recipes passed down through generations. Whether it's a wedding, corporate event, or a festive celebration, we ensure that every meal is a memorable experience.</p>
+                    <p>Our team of experienced chefs and staff are dedicated to providing the highest quality of service, ensuring that every event is a success. We take pride in using fresh, locally sourced ingredients to create dishes that are not only delicious but also healthy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Event Management. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="CateringServices.js"></script>
+</body>
+</html>
