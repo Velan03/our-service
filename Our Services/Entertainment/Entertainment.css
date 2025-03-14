@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('./Entertainment/Gala\ Dinner.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+/* Services Section */
+.services-section .card {
+    transition: transform 0.3s;
+}
+
+.services-section .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Gallery Section */
+.gallery-section img {
+    transition: transform 0.3s;
+}
+
+.gallery-section img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #fff;
+}
